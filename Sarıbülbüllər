@@ -1,0 +1,22 @@
+Bu günlərdə Moskva heyvanxanasına yeni sakinlər - n sarı bülbüllər gətirildi. Yazıq quşcüğazlar müvəqqəti narahat konteynerlərdə əziyyət çəkdikləri müddətdə heyvanxananın iclas zalında ornitoloqlar Şurası onların talelərini həll edirdilər. Məhz, alimlər n sarıbülbülü heyvanxanada olan k qəfəsdə necə yerləşdirməlidirlər ki, heçbir qəfəs boş qalmaması problemini həll etmiş olsunlar. Belə ki, quşların yerləşdirilməsində əsas meyar rahatlıq olmalıdir, ornitoloqları ilk növbədə ən çox doldurulmuş qəfəsdə nə qədər sarıbülbül olacağı maraqlandırır (yəni, maksimal sayda sarıbülbülün olacağı qəfəs).
+
+Başlanğıc üçün Sizə, heyvanxananın əsas proqramçısı (və yeganə proqramçısı) kimi bu kəmiyyəti qiymətləndirmək, yəni, heç bir qəfəsin boş qalmaması şərti ilə ən çox dolmuş olacaq qəfəsdəki quşların minimal və maksimal sayını tapmaq tapşırığı verildi.
+
+Giriş verilənləri
+Sarıbülbüllərin n sayı və qəfəslərin k sayı (1 ≤ k ≤ n ≤ 109).
+
+Çıxış verilənləri
+Ən çox dolmuş olacaq qəfəsdəki quşların minimal və maksimal sayını ifadə edən iki natural ədəd.
+
+#include <iostream>
+using namespace std;
+int main() {
+int n,k,l,z;
+cin>>n>>k;
+l=n-(k-1);
+if(n%k==0)
+z=n/k;
+else 
+z=n/k+1;
+cout<<z<<" "<<l;
+return 0; }
