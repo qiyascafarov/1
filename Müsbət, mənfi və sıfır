@@ -1,0 +1,21 @@
+n tam ədədi verilir. Onun müsbət, mənfi və ya 0-a bərabər olmasını müəyyənləşdirin.
+
+Giriş
+modulca 109-u aşmayan yeganə n tam ədədi.
+
+Çıxış
+n-in qiymətindən asılı olaraq "Positive", "Negative" və ya "Zero" verməli.
+#include <iostream>
+using namespace std;
+int main() {
+int n;
+cin>>n;
+if(n<0)
+cout<<"Negative";
+
+if(n==0)
+cout<<"Zero";
+
+if(n>0)
+cout<<"Positive";
+return 0; }
