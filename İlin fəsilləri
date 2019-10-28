@@ -1,0 +1,25 @@
+İlin fəsilləri
+Mürəkkəb şərtdən istifadə edərək verilmiş ayın nömrəsinə görə ilin fəslini müəyyənləşdirin.
+
+Giriş verilənləri
+Yeganə ədəd - ayın nömrəsi.
+
+Çıxış verilənləri
+Çıxışa yaz ayları üçün Spring, yay üçün Summer, payız üçün Autumn və qış üçün Winter sözlərini verin.
+
+#include <iostream>
+
+using namespace std;
+int main() {
+int n;
+cin>>n;
+if(n>=3 && n<=5)
+cout<<"Spring";
+if(n>=6 && n<=8)
+cout<<"Summer";
+if(n>=9 && n<=11)
+cout<<"Autumn";
+if(n==12 || n==2 || n==1)
+cout<<"Winter";
+
+return 0; }
