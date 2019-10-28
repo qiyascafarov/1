@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main() {
+int a,k,l;
+cin>>a;
+k=a/10;
+l=a%10;
+cout<<k<<" "<<l;
+  return 0;
+}
