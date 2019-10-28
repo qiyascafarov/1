@@ -1,0 +1,18 @@
+n natural ədədi verilmişdir. Nümunədə verildiyi kimi OK ismarıcını sayın və çap edin.
+
+Giriş verilənləri
+n natural ədədi.
+
+Çıxış verilənləri
+OK mətninin n dəfə nömrələnmiş şəkildə çap edin.
+
+
+#include <iostream>
+
+using namespace std;
+int main() {
+int n,i;
+cin>>n;
+for(i=1; i<=n; i++)
+cout<<i<<" "<<"OK"<<endl;
+return 0; }
