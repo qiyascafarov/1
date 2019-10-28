@@ -1,0 +1,17 @@
+Şərt operatoru - 1
+Növbəti şərtə uyğun olaraq y-in qiymətini hesablayın:
+https://www.e-olymp.com/uploads/media/d3/c1/21/0e/f9973c2e949224e8997add5049196050.gif
+
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main() {
+long long   x,y;
+cin>>x;
+if(x>=5)
+y=x + 7;
+else
+y=  pow(x, 2) - 3*x + 4;
+cout<<y;
+
+return 0; }
