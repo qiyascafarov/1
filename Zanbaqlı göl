@@ -1,0 +1,11 @@
+Meşə gölündə zanbaqlar çiçəklənməyə başladılar. Birinci gün bir zanbaq gül açdı, sonra isə hər növbəti gün gül açan zanbaqların sayı ikiqat artdı. n-ci gün bütün gölün səthi çiçəklənən zanbaqlarla örtüldü. Nüçənci gündə gölün səthinin yarısı çiçəklənən zanbaqlarla örtüldü?
+
+#include <iostream>
+using namespace std;
+int main() {
+int n,k;
+cin>>n;
+k=n-1;
+cout<<k;
+
+return 0; }
