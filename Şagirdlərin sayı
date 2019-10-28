@@ -1,0 +1,18 @@
+Şagirdlərin sayı
+Sinifdə a sayda oğlan və b sayda qız oxuyur. Sinifdə cəmi neçə şagird var?
+
+Giriş verilənləri
+İki natural a və b (a, b ≤ 1018) ədədləri.
+
+Çıxış verilənləri
+Sinifdəki uşaqların sayını çap edin.
+#include <iostream>
+using namespace std;
+int main() {
+long long n,k;
+cin>>n>>k;
+cout<<n+k;
+
+
+
+  return 0;
