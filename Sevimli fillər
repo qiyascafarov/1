@@ -1,0 +1,28 @@
+Hindistanın kəndlərindən birində müəllim oğlan Manmoxandan xahiş etdi ki, kənddəki fillərin sayını hesablasın. Manmoxan kənddəki bütün filləri saydı və o ikirəqəmli n ədədini aldı. Lakin cavabı müəllimə söyləməkdənsə, Manmoxan bir az zarafat etmək qərarına gəldi. Bunun üçün Manmoxan alınmış ədəddən onun rəqəmlərinin cəmini çıxdı, nəticəni 9-a böldü (bu zaman nəticənin kəsr hissəsini atdı), alınmış ədədi 1 vahid artırdı, sonra alınmış ədədin sonuna cari n ədədinin sonuncu rəqəmini yazdı və nəticədən 10 çıxdı. Sonda nə alındısa müəlliminə söylədi.
+
+Manmoxanın bütün hiyləgərliyinə baxmayaraq, müəllim alınmış ədədə görə kənddəki fillərin sayını müəyyənləşdirə bildi. Siz də bunu təyin edin.
+
+Giriş verilənləri
+Proqram girişdə Manmoxanın əldə etdiyi ədədi alır.
+
+Çıxış verilənləri
+Proqram kəddəki fillərin sayını hesablamalıdır.
+#include <iostream>
+using namespace std;
+int main() {
+int a,z,q,e,n,t,r,y;
+cin>>a;
+y=a+10;
+q=y%10;
+t=(y-q)/10;
+
+r=t-1;
+e=r*9;
+n=e+r+q;
+
+
+
+
+
+cout<<n;
+return 0; }
