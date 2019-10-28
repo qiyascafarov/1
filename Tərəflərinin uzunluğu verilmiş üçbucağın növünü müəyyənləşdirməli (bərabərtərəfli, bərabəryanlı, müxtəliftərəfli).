@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main() {
+long long n,k,z;
+cin>>n>>k>>z;
+if(n==k && k==z)
+cout<<"1";
+if(n==k && k!=z)
+cout<<"2";
+if(k==z && k!=n)
+cout<<"2";
+if(n==z && k!=z)
+cout<<"2";
+if(n!=k && k!=z && n!=z)
+cout<<"3";
+
+
+
+  return 0;
+}
