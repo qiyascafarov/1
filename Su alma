@@ -1,0 +1,17 @@
+Su şüşəsinin qiyməti, boş şüşənin də qiymətini nəzərə almaqla 1 man 20 qəpikdir, boş şüşənin qiyməti 20 qəpikdir.
+
+n manata neçə şüşə su içmək olar, nəzərə almaq lazımdır ki, boş şüşələri təhvil vermək olar və alınan pula yeni su şüşələri əldə etmək olar.
+
+Giriş verilənləri
+n (1 ≤ n ≤ 1000) natural ədədi.
+
+Çıxış verilənləri
+n manata içilə biləcək su şüşələrinin sayını verməli.
+#include <iostream>
+using namespace std;
+int main() {
+int n,k;
+cin>>n;
+k=(n-0.2)/1;
+cout<<k;
+return 0; }
