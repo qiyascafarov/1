@@ -1,0 +1,18 @@
+Ardıcıl sayın
+Yay kompüter məktəblərinin birində nümayişdə n sayda məktəbli iştirak edir. Məktəblilərdən birinin əmri ilə hamısı cərgəyə düzülürlər, sonra isə saymağa başlayırlar. Birinci məktəbli "birinci", ikincisi "ikinci" deyir və s. Sizdən ssenarinin bu hissəsini yazmaq tələb olunur.
+
+Giriş verilənləri
+Yeganə n (1 ≤ n ≤ 1000) ədədi.
+
+Çıxış verilənləri
+Boşluqla ayrılan 1-dən n-ə qədər ədədləri verməli.
+
+#include <iostream>
+
+using namespace std;
+int main() {
+int n,i;
+cin>>n;
+for(i=1; i<=n; i++)
+cout<<i<<" ";
+return 0; }
