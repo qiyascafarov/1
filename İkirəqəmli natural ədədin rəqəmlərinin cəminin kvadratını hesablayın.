@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main() {
+int n,k,z,l;
+cin>>n;
+k=n/10;
+z=n%10;
+l=(k+z) * (k+z);
+cout<<l;
+
+
+
+  return 0;
+}
