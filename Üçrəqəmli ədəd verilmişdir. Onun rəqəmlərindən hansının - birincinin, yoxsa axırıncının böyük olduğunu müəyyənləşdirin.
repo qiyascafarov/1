@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main() {
+long long n,k,z;
+cin>>n;
+k=n/100;
+z=n%10;
+if(k>z)
+cout<<k;
+if(z>k)
+cout<<z;
+if(k==z)
+cout<<"=";
+
+
+
+  return 0;
+}
