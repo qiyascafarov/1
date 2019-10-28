@@ -1,0 +1,20 @@
+İntervalın daxilində
+x-in [a; b] intervalına daxil olduğunu təyin edin. x ədədi o zaman [a; b] intervalına daxildir ki, a ≤ x ≤ b olsun.
+
+Giriş verilənləri
+Modulca 109-u aşmayan x, a, b tam ədədləri.
+
+Çıxış verilənləri
+x ədədi [a; b] intervalına daxildirsə "YES", əks halda "NO" çap edin.
+
+#include <iostream>
+
+using namespace std;
+int main() {
+int x,a,b;
+cin>>x>>a>>b;
+if(x<a || x>b)
+cout<<"NO";
+else
+cout<<"YES";
+return 0; }
