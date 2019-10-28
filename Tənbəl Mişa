@@ -1,0 +1,24 @@
+Mişa uşaqlarla futbol oynamaq qərarına gəldi və evdən çixmağa hazırlaşırdı ki, bu zaman anası onu yaxaladı və dedi ki, nə qədər ki, Mişa ona ev işlərində kömək etməsə, futbol oynamağa getməyəcək. Seçim üçün anası Mişaya üç işdən birini görməsini təklif etdi: ya qabları yumalı, ya tozsoran ilə mənzili təmizləməli, ya da anası dükana gedənə qədər kiçik bacısı Mariya ilə oynamalı. Mişa hər bir işin nə qədər vaxt alacağını hesabladı:
+
+Qabların yuyulmasına t1 saniyə
+Mənzilin tozsoran ilə təmizlənməsinə t2 saniyə
+Mariya ilə oynamaq t3 saniyə vaxt alacaq
+Aydındır ki, Mişa ən az vaxt alacaq işi seçir. Sizin proqram Mişanın anasının tapşırığını yerinə yetirməsi üçün minimal vaxtı hesablamalıdır.
+
+Giriş verilənləri
+Üç tam ədəd: t1, t2, t3 (1 ≤ t1, t2, t3 ≤ 1000).
+
+Çıxış verilənləri
+Anasının tapşırığını yerinə yetirmək üçün Mişaya lazım olan minimal vaxtı verməli
+.
+#include <iostream>
+using namespace std;
+int main() {
+int a,b,c;
+cin>>a>>b>>c;
+if (a<b) swap (a, b);
+ if (b<c) swap (b, c);
+cout<<c;
+
+
+return 0;  }
