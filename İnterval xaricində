@@ -1,0 +1,19 @@
+İnterval xaricində
+x ədədinin [a; b] intervalı xaricində olduğunu təyin edin. x ədədi o zaman [a; b] intervalı xaricindədir ki, x < a, ya da x >b olsun.
+
+Giriş verilənləri
+Modulca 109-u aşmayan x, a, b tam ədədləri.
+
+Çıxış verilənləri
+x ədədi [a; b] intervalı xaricindədirsə "OUT", əks halda "IN" çap edin.
+#include <iostream>
+
+using namespace std;
+int main() {
+int x,a,b;
+cin>>x>>a>>b;
+if(x<a || x>b)
+cout<<"OUT";
+else
+cout<<"IN";
+return 0; }
