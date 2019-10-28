@@ -1,0 +1,17 @@
+Verilmiş şərtlərə uyğun olaraq, y-in qiymətini hesablayın:
+
+
+https://www.e-olymp.com/uploads/media/69/b4/52/1a/f941dd1adc6e74e7288428067b409b65.gif  sekil
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main() {
+long long   x,y;
+cin>>x;
+if(x>=13)
+y=3* pow(x, 3) + 4* pow(x, 2) + 5*x + 6;
+else
+y=3* pow(x, 3) - 2* pow(x, 2) - 3*x - 4;
+cout<<y;
+
+return 0; }
