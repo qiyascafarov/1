@@ -1,0 +1,23 @@
+10-B sinfinin şagirdləri payız tətilində paytaxta ekskursiyaya getmək qərarına gəldilər. Oğlanların sayının n və qızların sayının m olduğunu bilərək, müəyyənləşdirmək lazımdır ki, mehmanxanada oğlanlar və qızların eyni otaqda olmaması şərtilə hər birində k yer olan neçə otaq sifariş vermək lazımdır.
+
+Giriş verilənləri
+Tək sətirdə üç n, m, k (n, m, k ≤ 100) ədədləri verilir.
+
+Çıxış verilənləri
+Mehmanxanada sifariş ediləcək otaqların sayını verməli.
+#include <iostream>
+
+using namespace std;
+int main() {
+int n,m,k,z,l;
+cin>>n>>m>>k;
+if(n%k==0)
+l=n/k;
+else 
+l=n/k+1;
+if(m%k==0)
+z=m/k;
+else 
+z=m/k+1;
+cout<<z+l;
+return 0; }
