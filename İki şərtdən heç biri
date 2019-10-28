@@ -1,0 +1,24 @@
+İki şərtdən heç biri
+Verilmiş n ədədinə görə növbəti şərtlərdən heç biri doğru deyilsə YES, əks halda NO çap edin.
+
+n ədədi cütdür və müsbətdir;
+
+n ədədi təkdir və mənfidir.
+
+Giriş verilənləri
+n ədədi.
+
+Çıxış verilənləri
+Şərtə uyğun YES və ya NO çap edin.
+#include <iostream>
+using namespace std;
+int main() {
+int n,m,k;
+cin>>n;
+if((n>0 && n%2==0) || (n<0 && n%2!=0))
+cout<<"NO";
+else
+cout<<"YES";
+
+
+return 0; }
