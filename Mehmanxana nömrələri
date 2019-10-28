@@ -1,0 +1,14 @@
+Memanxana n mərtəbəlidir. Dəhliz, restoran və məşq zalı birinci mərtəbədədir. Nömrələr 2-ci mərtəbədən n-ci mərtəbəyə qədər yerləşir. Hər bir mərtəbədə m sayda standart nömrə yerləşir. Əgər hər bir standart nömrəyə 3 nəfər qonaq yerləşdirilərsə, mehmanxananın bütün standart nömrələrinə maksimum neçə nəfər qonaq yerləşə bilər?
+
+Giriş verilənləri
+İki natural n və m (n, m ≤ 106) ədədləri.
+
+Çıxış verilənləri
+Bütün standart nömrələrə yerləşə biləcək qonaqların maksimal sayını verin.
+#include <iostream>
+using namespace std;
+int main() {
+long long n,m,k;
+cin>>n>>m;
+k=(n-1)*m*3;
+cout<<k; return 0; }
